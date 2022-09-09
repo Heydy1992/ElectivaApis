@@ -1,1 +1,10 @@
 
+Historia Técnica
+
+Creación de Base de Datos
+  En PostgreSQL, crear base de datos para el almacenamiento persistente de los datos   de la aplicación
+  
+  Subtareas
+  Instalación de PostgreSQL
+  Creación de la base de datos
+  Configuración de la conexión a la BAse de Datos desde el Framwork
