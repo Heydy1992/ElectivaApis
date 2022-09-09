@@ -1,1 +1,26 @@
 
+HISTORIA DE USUARIO
+  Feature:  Registro de usuario
+  
+  Scenario: Registro de usuario en la plataforma con correo nuevo(nunca antes solicitado)
+  
+  Given:    El usuario ha de hacer click en el "botón nuevo usuario" e introduce de forma correcta un nombre de usuario, nombre y apellido, correo  electronico y contraseña
+  
+  When:     El usuario "Clicka" sobre el botón registrar
+  
+  Then:     El usuario puede registrarse de forma correcta e iniciar seccion con el usuario y contraseña que ha definido
+  
+SUBTAREAS(Dfinir las tareas de BACK- END)
+  Creación de tabla de usuarios con los campos : 
+            nombre_usuario
+            nombre 
+            apellido 
+            contraseña 
+            correo(llave unica)
+  Metodo
+  URIs de EndPoint
+  Body de las solicitudes
+  Respuesta
+  Codigos HTTP de las respuesta
+  Mensaje de error
+  
